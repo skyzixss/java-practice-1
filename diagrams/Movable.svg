@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="white"/>
+<defs><marker id="triangle" markerWidth="18" markerHeight="18" refX="17" refY="9" orient="auto"><path d="M1 1 L17 9 L1 17 Z" fill="white" stroke="#263747"/></marker></defs>
+<rect x="420" y="20" width="360" height="182" fill="#f5f8fb" stroke="#263747" stroke-width="1.5"/>
+<text x="600.0" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#172c3c">«interface»</text>
+<text x="600.0" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#172c3c">Movable</text>
+<path d="M420 80 H780" stroke="#263747"/>
+<text x="435" y="107" font-family="Arial, sans-serif" font-size="16">+ moveUp(): void</text>
+<text x="435" y="132" font-family="Arial, sans-serif" font-size="16">+ moveDown(): void</text>
+<text x="435" y="157" font-family="Arial, sans-serif" font-size="16">+ moveLeft(): void</text>
+<text x="435" y="182" font-family="Arial, sans-serif" font-size="16">+ moveRight(): void</text>
+<rect x="20" y="265" width="470" height="422" fill="#f5f8fb" stroke="#263747" stroke-width="1.5"/>
+<text x="255.0" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#172c3c">MovablePoint</text>
+<path d="M20 309 H490" stroke="#263747"/>
+<text x="35" y="337" font-family="Arial, sans-serif" font-size="16">- x: int</text>
+<text x="35" y="362" font-family="Arial, sans-serif" font-size="16">- y: int</text>
+<text x="35" y="387" font-family="Arial, sans-serif" font-size="16">- xSpeed: int</text>
+<text x="35" y="412" font-family="Arial, sans-serif" font-size="16">- ySpeed: int</text>
+<path d="M20 427 H490" stroke="#263747"/>
+<text x="35" y="454" font-family="Arial, sans-serif" font-size="16">+ MovablePoint(x: int, y: int,</text>
+<text x="35" y="479" font-family="Arial, sans-serif" font-size="16">    xSpeed: int, ySpeed: int)</text>
+<text x="35" y="504" font-family="Arial, sans-serif" font-size="16">+ getX(): int; getY(): int</text>
+<text x="35" y="529" font-family="Arial, sans-serif" font-size="16">+ getXSpeed(): int; getYSpeed(): int</text>
+<text x="35" y="554" font-family="Arial, sans-serif" font-size="16">+ moveUp(): void; moveDown(): void</text>
+<text x="35" y="579" font-family="Arial, sans-serif" font-size="16">+ moveLeft(): void; moveRight(): void</text>
+<text x="35" y="604" font-family="Arial, sans-serif" font-size="16">+ toString(): String</text>
+<rect x="600" y="265" width="580" height="422" fill="#f5f8fb" stroke="#263747" stroke-width="1.5"/>
+<text x="890.0" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#172c3c">MovableRectangle</text>
+<path d="M600 309 H1180" stroke="#263747"/>
+<text x="615" y="337" font-family="Arial, sans-serif" font-size="16">- topLeft: MovablePoint</text>
+<text x="615" y="362" font-family="Arial, sans-serif" font-size="16">- bottomRight: MovablePoint</text>
+<path d="M600 377 H1180" stroke="#263747"/>
+<text x="615" y="404" font-family="Arial, sans-serif" font-size="16">+ MovableRectangle(x1: int, y1: int, x2: int,</text>
+<text x="615" y="429" font-family="Arial, sans-serif" font-size="16">    y2: int, xSpeed: int, ySpeed: int)</text>
+<text x="615" y="454" font-family="Arial, sans-serif" font-size="16">+ MovableRectangle(topLeft: MovablePoint,</text>
+<text x="615" y="479" font-family="Arial, sans-serif" font-size="16">    bottomRight: MovablePoint)</text>
+<text x="615" y="504" font-family="Arial, sans-serif" font-size="16">+ getTopLeft(): MovablePoint</text>
+<text x="615" y="529" font-family="Arial, sans-serif" font-size="16">+ getBottomRight(): MovablePoint</text>
+<text x="615" y="554" font-family="Arial, sans-serif" font-size="16">+ SpeedTest(): boolean</text>
+<text x="615" y="579" font-family="Arial, sans-serif" font-size="16">+ moveUp(): void; moveDown(): void</text>
+<text x="615" y="604" font-family="Arial, sans-serif" font-size="16">+ moveLeft(): void; moveRight(): void</text>
+<text x="615" y="629" font-family="Arial, sans-serif" font-size="16">+ toString(): String</text>
+<path d="M255 265 V230 H500 V203" fill="none" stroke="#263747" stroke-width="1.5" stroke-dasharray="7 5" marker-end="url(#triangle)"/>
+<path d="M890 265 V230 H700 V203" fill="none" stroke="#263747" stroke-width="1.5" stroke-dasharray="7 5" marker-end="url(#triangle)"/>
+<path d="M600 476 L589 470 L578 476 L589 482 Z" fill="#263747"/><path d="M578 476 H490" stroke="#263747" stroke-width="1.5"/>
+<text x="545" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">topLeft</text>
+<text x="545" y="444" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">bottomRight</text>
+<text x="503" y="494" font-family="Arial, sans-serif" font-size="14">2</text>
+<text x="20" y="727" font-family="Arial, sans-serif" font-size="16">Практическая работа 7, задания 1–3. Пунктир — реализация интерфейса; ромб — композиция.</text>
+</svg>
